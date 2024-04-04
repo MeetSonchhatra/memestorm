@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:memestorm/splashscreen.dart';
 import 'package:memestorm/themes.dart';
-import 'package:memestorm/view/home_view.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
-      home: HomeView(),
+      home: SplashScreen(),
     );
   }
 }
